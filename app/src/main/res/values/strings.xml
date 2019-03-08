@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PaletteActivity</string>
+
+    <string name="color_name">color_name</string>
+</resources>
