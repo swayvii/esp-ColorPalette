@@ -1,5 +1,21 @@
 <resources>
-    <string name="app_name">PaletteActivity</string>
+    <string translatable="false"  name="app_name">PaletteActivity</string>
 
-    <string name="color_name">color_name</string>
+    <string translatable="false"  name="color_name">color_name</string>
+
+    <string-array name="view_colors">
+
+        <item>yellow</item>
+        <item>green</item>
+        <item>red</item>
+        <item>white</item>
+        <item>blue</item>
+        <item>gray</item>
+
+        <item>magenta</item>
+        <item>cyan</item>
+    </string-array>
+
+
+
 </resources>

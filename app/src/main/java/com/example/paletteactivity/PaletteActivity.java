@@ -7,7 +7,7 @@ import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 
 public class PaletteActivity extends AppCompatActivity {
-
+    ConstraintLayout canvas;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,7 +16,7 @@ public class PaletteActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String color = intent.getStringExtra("color");
 
-        ConstraintLayout canvas = findViewById(R.id.layoutback);
+        canvas = findViewById(R.id.layoutback);
         canvas.setBackgroundColor(Color.parseColor(color));
     }
 }

@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         Spinner spinner = findViewById(R.id.color_spinner);
 
-        final String[] viewcolors = {"yellow","green","red","white","blue","gray","darkGray","lightGray","magenta","cyan"};
+        //Resource res =[]
+        String[] view_colors = getResources().getStringArray(R.array.view_colors);
 
 
-
-        myAdapter colorAdapter = new myAdapter(this,R.layout.spinner_layout,viewcolors );
+        myAdapter colorAdapter = new myAdapter(this,R.layout.spinner_layout,view_colors );
 
         spinner.setAdapter(colorAdapter);
 
